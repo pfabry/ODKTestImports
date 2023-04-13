@@ -1,0 +1,11 @@
+id: ODKTestImports
+title: ODK test imports ontology
+github_org: pfabry
+repo: ODKTestImports
+release_artefacts:
+  - base
+  - full
+primary_release: full
+export_formats:
+  - owl
+robot_java_args: "-Xmx8G"
