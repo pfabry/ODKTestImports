@@ -9,9 +9,10 @@ primary_release: full
 export_formats:
   - owl
 import_group:
+  module_type: filter
   products:
+    - id: bfo
+    - id: omrse
     - id: omo
-    - id: bfo-2020
-      mirror_from: "https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-2020.owl"
-      module_type: mirror
+    - id: ro
 robot_java_args: "-Xmx8G"
