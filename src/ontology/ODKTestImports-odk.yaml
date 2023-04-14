@@ -8,4 +8,8 @@ release_artefacts:
 primary_release: full
 export_formats:
   - owl
+import_group:
+  products:
+    - id: omo
+    - id: bfo
 robot_java_args: "-Xmx8G"
