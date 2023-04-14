@@ -8,4 +8,11 @@ release_artefacts:
 primary_release: full
 export_formats:
   - owl
+import_group:
+  products:
+    - id: omo
+      module_type: mirror
+    - id: bfo-2020
+      module_type: mirror
+      mirror_from: "https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-2020.owl"
 robot_java_args: "-Xmx8G"
