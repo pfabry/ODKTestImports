@@ -9,8 +9,10 @@ primary_release: full
 export_formats:
   - owl
 import_group:
-  products:
+    products:
     - id: bfo
     - id: omo
+      module_type: slme
+      slme_individuals: exclude
     - id: ro
 robot_java_args: "-Xmx8G"
