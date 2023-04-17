@@ -12,5 +12,7 @@ import_group:
   products:
     - id: bfo
     - id: omo
+      module_type: slme
+      slme_individuals: exclude
     - id: ro
 robot_java_args: "-Xmx8G"
