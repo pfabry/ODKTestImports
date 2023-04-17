@@ -10,6 +10,7 @@ export_formats:
   - owl
 import_group:
   products:
-    - id: omo
     - id: bfo
+    - id: omo
+    - id: ro
 robot_java_args: "-Xmx8G"
